@@ -52,8 +52,28 @@
 /* PROFILE */
 .profile {
   border: 1px black solid;
+  display: grid;
+  grid-template-columns: 75px 4fr 1fr 1fr 1fr;
+  align-items: center;
 }
 
+.profile-pic {
+  height: 75px;
+  border-radius: 50%;
+}
+
+.hello {
+  font-size: 1rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+.btn-container {
+  justify-self: center;
+}
+.profile-btn {
+  padding: 5px 20px;
+}
 /* CONTENT */
 .content {
   border: 1px black solid;
