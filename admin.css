@@ -131,10 +131,12 @@ h1 {
   gap: 15px;
 }
 
+/* POST  */
 .posts-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  margin-top: 10px;
 }
 
 .post {
@@ -142,12 +144,20 @@ h1 {
   background: white;
   border-radius: 5px;
   padding: 5px;
+  display: grid;
+  grid-template-rows: 25px 90px 40px;
 }
 
 .post-text {
   font-size: 0.75em;
 }
 
+.post-icon {
+  height: 20px;
+  padding: 5px;
+  justify-self: end;
+}
+/* ANNOUCEMENTS */
 .annoucements {
   margin-right: 15px;
 }
