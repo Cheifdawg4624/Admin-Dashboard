@@ -52,6 +52,7 @@ body {
   grid-template-rows: 1fr 1fr;
   background-color: #facc15;
   color: rgb(0, 0, 0);
+  padding-right: 75px;
 }
 
 .top-sidebar {
@@ -147,31 +148,51 @@ h1 {
   font-size: 0.75em;
 }
 
+.annoucements {
+  margin-right: 15px;
+}
+
 .annoucement-text {
   background: white;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
+.annoucement-preview {
+  font-weight: lighter;
+  font-size: 0.65rem;
+}
 .annoucement {
-  padding: 10px;
+  padding: 20px;
 }
 
 .top-border {
-  border-top: 1px black solid;
+  border-top: 2px #e2e8f0 solid;
 }
 
 .trending {
   display: grid;
-  grid-template-columns: 40px 1fr;
+  grid-template-columns: 50px 1fr;
   background-color: white;
   border-radius: 5px;
   align-items: center;
   gap: 5px;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 .trending-img {
   height: 30px;
   justify-self: center;
+}
+
+.trending-username {
+  font-size: 0.9rem;
+}
+
+.trending-text {
+  font-size: 0.65rem;
+  font-weight: lighter;
 }
